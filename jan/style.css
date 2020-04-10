@@ -1,0 +1,167 @@
+body{
+    background: rgb(128, 125, 125);
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 0;
+}
+header{
+    background: black;
+    padding: 40px 40px 40px 40px;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+}
+h1{
+    text-align: center;
+    color: white;
+    /*background: rgb(255, 255, 255);*/
+    padding: 0px;
+    margin: 0;
+    font-size: 80px;
+    top: 0px;
+}
+h2{
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 75px;
+}
+h3{
+    font-size: xx-small;
+    top:-9999px;
+    position: relative;
+    margin:0px
+}
+a{
+    font-size: 25px;
+    color: black;
+    background-color: lightgrey;
+    padding: 0px 20px 0px 20px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.RoterBalken{
+    padding: 5px;
+    background: rgb(117, 4, 4);
+}
+.Navigation{
+    background: white;
+    color: black;
+    display:flex;
+    flex-direction: row;
+}
+.Navigation li{
+    display: inline;
+    margin: 0 10px 0 0;
+}
+.WhoamI{
+    padding: 20px;
+    background: white;
+    color: black;
+}
+.WhoamI div{
+    text-align: center;
+    font-size: 35px;
+    font-style: oblique;
+}
+footer{
+    color:black;
+    background: rgb(107, 106, 106);
+    padding: 10px 20px;
+}
+#foot{
+    display: column;
+    font-size: smaller;
+}
+#Leistung{
+    text-align: center;
+    font-size: 30px;
+    margin: 25px;
+}
+.Refer{
+    background: white;
+    padding: 10px;
+}
+.Refer figure{
+    margin: auto;
+}
+.Refer figure img{
+    width: 1200px;
+    padding: 10px 50px 10px 50px;
+}
+@media screen and (max-width: 1300px){
+    .Refer figure img{
+        width: 900px;
+        padding: 10px 50px 10px 50px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .Refer figure img{
+        width: 800px;
+        padding: 10px 50px 10px 50px;
+    }
+}
+@media screen and (max-width: 900px){
+    .Refer figure img{
+        width: 700px;
+        padding: 10px 50px 10px 50px;
+    }
+}
+@media screen and (max-width: 850px){
+    .Refer figure img{
+        width: 600px;
+        padding: 10px 20px 10px 20px;
+    }
+}
+@media screen and (max-width: 750px){
+    h1{
+        font-size: 50px;
+    }
+    .Refer figure img{
+        width: 500px;
+        padding: 10px 20px 10px 20px;
+    }
+}
+@media screen and (max-width:500px){
+    h1{
+        font-size: 50px;
+    }
+    .Refer figure img{
+        width: 400px;
+        padding: 10px 50px 10px 50px;
+    }
+}
+@media screen and (max-width:300px){
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .Refer figure img{
+        width: 200px;
+        padding: 10px 5px 10px 5px;
+    }
+}
+@media screen and (max-width:200px){
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .Refer figure img{
+        width: 150px;
+        padding: 10px 5px 10px 5px;
+    }
+}
